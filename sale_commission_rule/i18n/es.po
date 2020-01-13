@@ -1,0 +1,176 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* sale_commission_rule
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-10 13:38+0000\n"
+"PO-Revision-Date: 2020-01-10 13:38+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sale_commission_rule
+#: model:ir.model.fields,field_description:sale_commission_rule.field_sale_commission_rule__agent
+#: model_terms:ir.ui.view,arch_db:sale_commission_rule.view_sale_commission_rule_search
+msgid "Agent"
+msgstr "Agente"
+
+#. module: sale_commission_rule
+#: model:ir.model.fields,field_description:sale_commission_rule.field_sale_commission_rule__category
+#: model_terms:ir.ui.view,arch_db:sale_commission_rule.view_sale_commission_rule_search
+msgid "Category"
+msgstr "Categoría"
+
+#. module: sale_commission_rule
+#: model:ir.model.fields,field_description:sale_commission_rule.field_sale_commission_rule__commission
+#: model_terms:ir.ui.view,arch_db:sale_commission_rule.view_sale_commission_rule_search
+msgid "Commission"
+msgstr "Comisión"
+
+#. module: sale_commission_rule
+#: model:ir.model,name:sale_commission_rule.model_sale_commission_rule
+msgid "Commission rule"
+msgstr "Regla de comisión"
+
+#. module: sale_commission_rule
+#: model:ir.actions.act_window,name:sale_commission_rule.action_sale_commission_rule
+#: model:ir.ui.menu,name:sale_commission_rule.menu_sale_commission_rule
+#: model_terms:ir.ui.view,arch_db:sale_commission_rule.view_sale_commission_rule
+msgid "Commission rules"
+msgstr "Reglas de comisión"
+
+#. module: sale_commission_rule
+#: model_terms:ir.ui.view,arch_db:sale_commission_rule.view_sale_commission_rule_search
+msgid "Commission rules search"
+msgstr "Búsqueda de reglas de comisión"
+
+#. module: sale_commission_rule
+#: model_terms:ir.ui.view,arch_db:sale_commission_rule.res_config_settings_view_form
+msgid "Commissions"
+msgstr "Comisiones"
+
+#. module: sale_commission_rule
+#: model:ir.model,name:sale_commission_rule.model_res_config_settings
+msgid "Config Settings"
+msgstr "Opciones de Configuración"
+
+#. module: sale_commission_rule
+#: model:ir.model.fields,field_description:sale_commission_rule.field_sale_commission_rule__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: sale_commission_rule
+#: model:ir.model.fields,field_description:sale_commission_rule.field_sale_commission_rule__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: sale_commission_rule
+#: model:ir.model.fields,field_description:sale_commission_rule.field_sale_commission_rule__customer
+#: model_terms:ir.ui.view,arch_db:sale_commission_rule.view_sale_commission_rule_search
+msgid "Customer"
+msgstr "Cliente"
+
+#. module: sale_commission_rule
+#: model_terms:ir.ui.view,arch_db:sale_commission_rule.view_account_invoice_line_agent_only
+#: model_terms:ir.ui.view,arch_db:sale_commission_rule.view_sale_order_line_agent_only
+msgid "Discard"
+msgstr "Descartar"
+
+#. module: sale_commission_rule
+#: model:ir.model.fields,field_description:sale_commission_rule.field_sale_commission_rule__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: sale_commission_rule
+#: model_terms:ir.ui.view,arch_db:sale_commission_rule.view_sale_commission_rule_search
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: sale_commission_rule
+#: selection:res.config.settings,sale_commission_rule_priority:0
+msgid "Higher fixed percentage"
+msgstr "Porcentaje fijo mayor"
+
+#. module: sale_commission_rule
+#: model:ir.model,name:sale_commission_rule.model_account_invoice_line
+msgid "Invoice Line"
+msgstr "Linea de Factura"
+
+#. module: sale_commission_rule
+#: model:ir.model.fields,field_description:sale_commission_rule.field_sale_commission_rule____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: sale_commission_rule
+#: model:ir.model.fields,field_description:sale_commission_rule.field_sale_commission_rule__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: sale_commission_rule
+#: model:ir.model.fields,field_description:sale_commission_rule.field_sale_commission_rule__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: sale_commission_rule
+#: selection:res.config.settings,sale_commission_rule_priority:0
+msgid "Lower fixed percentage"
+msgstr "Porcentaje fijo menor"
+
+#. module: sale_commission_rule
+#: model:ir.model,name:sale_commission_rule.model_sale_commission_mixin
+msgid "Mixin model for applying to any object that wants to handle commissions"
+msgstr "Modelo mixin para aplicar a cualquier objeto que quiera manejar comisiones"
+
+#. module: sale_commission_rule
+#: model:ir.model,name:sale_commission_rule.model_sale_commission_line_mixin
+msgid "Mixin model for having commission agent lines in any object inheriting from this one"
+msgstr "Modelo mixin para tener líneas de agente de comisiones en cualquier objeto heredando de éste"
+
+#. module: sale_commission_rule
+#: selection:res.config.settings,sale_commission_rule_priority:0
+msgid "Order"
+msgstr "Orden"
+
+#. module: sale_commission_rule
+#: model_terms:ir.ui.view,arch_db:sale_commission_rule.res_config_settings_view_form
+msgid "Priority when more than one rule applies"
+msgstr "Prioridad cuando más de una regla aplica"
+
+#. module: sale_commission_rule
+#: model:ir.model.fields,field_description:sale_commission_rule.field_sale_commission_rule__product
+#: model_terms:ir.ui.view,arch_db:sale_commission_rule.view_sale_commission_rule_search
+msgid "Product"
+msgstr "Producto"
+
+#. module: sale_commission_rule
+#: model_terms:ir.ui.view,arch_db:sale_commission_rule.res_config_settings_view_form
+msgid "Rules priority"
+msgstr "Prioridad de reglas"
+
+#. module: sale_commission_rule
+#: model:ir.model.fields,field_description:sale_commission_rule.field_res_config_settings__sale_commission_rule_priority
+msgid "Sale commission rules priority"
+msgstr "Prioridad de reglas de comisión de venta"
+
+#. module: sale_commission_rule
+#: model:ir.model,name:sale_commission_rule.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Línea de pedido de venta"
+
+#. module: sale_commission_rule
+#: model_terms:ir.ui.view,arch_db:sale_commission_rule.view_account_invoice_line_agent_only
+#: model_terms:ir.ui.view,arch_db:sale_commission_rule.view_sale_order_line_agent_only
+msgid "Save"
+msgstr "Guardar"
+
+#. module: sale_commission_rule
+#: model:ir.model.fields,field_description:sale_commission_rule.field_sale_commission_rule__sequence
+msgid "Sequence"
+msgstr "Secuencia"
+

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2019 PlanetaTIC <info@planetatic.com>
+     License LGPL-3.0 or later (https://www.gnu.org/licenses/lgpl). -->
+
+<odoo>
+
+    <record id="view_order_agent_form_inherit" model="ir.ui.view">
+        <field name="name">sale.agent.order.inherit.form.rules</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale_commission.view_order_agent_form_inherit"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='order_line']/tree//field[@name='agents']" position="inside">
+                <!-- hack to make on change product work -->
+                <!-- it breaks form view -->
+                <tree>
+                    <field name="agent"/>
+                    <field name="commission"/>
+                </tree>
+            </xpath>
+            <xpath expr="//field[@name='order_line']/form//field[@name='agents']" position="inside">
+                <!-- hack to fetch agents again and fix form view -->
+                <form/>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="view_sale_order_line_agent_only" model="ir.ui.view">
+        <field name="name">sale.order.line.form.agent.only</field>
+        <field name="model">sale.order.line</field>
+        <field name="priority" eval="32"/>
+        <field name="arch" type="xml">
+            <form>
+                <!-- hack to make on change agent work -->
+                <field name="order_id" invisible="1"/>
+                <field name="product_id" invisible="1"/>
+
+                <field name="commission_free" invisible="1"/>
+                <field name="agents" attrs="{'readonly': [('commission_free', '=', True)]}"/>
+                <footer class="oe_edit_only">
+                    <button string="Save" special="save" class="oe_highlight"/>
+                    <button string="Discard" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+</odoo>
